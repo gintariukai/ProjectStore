@@ -6,9 +6,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data //duomenis kurie sukurs tendencija
-@Builder //igalins dizaino modeli product
-@AllArgsConstructor //kurs konstruktorius
+@Data
+@Builder
+@AllArgsConstructor
 @NoArgsConstructor
 public class ProductDto {
 
